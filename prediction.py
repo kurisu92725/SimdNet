@@ -48,9 +48,10 @@ if __name__ == '__main__':
     argparser.add_argument('--gpuid', type=int, default=0, help="GPU id for training model, else use CPU")
 
     argparser.add_argument('--batch_size', type=int, default=16, help="Batch size")
-
-    argparser.add_argument('--test_path', type=str, default='../dataset_pre/data11/core',help='path of testing set ')
-    argparser.add_argument('--test_name_path', type=str, default='../dataset_pre/data11/core_name_pointer.pkl', help='path of testing name')
+    
+    #May need to change files
+    argparser.add_argument('--test_path', type=str, default='./dataset/core',help='path of testing set ')
+    argparser.add_argument('--test_name_path', type=str, default='./dataset/core_name_pointer.pkl', help='path of testing name')
     argparser.add_argument('--label_path', type=str, default='./pdb_2016_labels.pkl',help='label path')
 
     argparser.add_argument('--param_path', type=str, default='./example_model/net_params_0', help='param path')  ##need change
