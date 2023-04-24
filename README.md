@@ -1,7 +1,8 @@
 # SimdNet
 Simplified Directional Message Passing Neural Network for Prediction of Protein-Ligand Binding Affinity
 
-##Code Environment
+
+## Code Environment
 - **key packages**
     ```python
     PyG    https://github.com/pyg-team/pytorch_geometric
