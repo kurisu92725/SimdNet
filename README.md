@@ -1,8 +1,6 @@
 # SimdNet
 Simplified Directional Message Passing Neural Network for Prediction of Protein-Ligand Binding Affinity
 
-http://dx.doi.org/10.2139/ssrn.4376917
-
 ##Code Environment
 - **key packages**
     ```python
