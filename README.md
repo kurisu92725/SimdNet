@@ -22,7 +22,7 @@ In a run-time environment, in a project directory, train the model using the fol
   ```python
   python simd_train.py
   ```
-Note that because the pre-processing training set is large, you can download the original data set and process it yourself. The web address of the original data set is: http://www.pdbbind.org.cn/
+Note that because the pre-processing training set is large, you can download the original data set and process it yourself with the functions in *MODEL* folder. The web address of the original data set is: http://www.pdbbind.org.cn/
 
 **Testing**
 
